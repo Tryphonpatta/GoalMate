@@ -11,7 +11,7 @@ import { format } from "date-fns";
 
 export interface Todo {
   id: number;
-  text?: string;
+  text: string;
   completed: boolean;
   createdAt: string;
 }

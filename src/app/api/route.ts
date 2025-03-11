@@ -41,8 +41,8 @@ export async function POST(request: Request) {
     }
   );
   const responseObject = JSON.parse(response.data.choices[0].message.content);
-  console.log(response.data);
-  console.log(responseObject);
+  // console.log(response.data);
+  // console.log(responseObject);
   return Response.json(responseObject);
   // console.log(response);
   //   const response = await fetch(
